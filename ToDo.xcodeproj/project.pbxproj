@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60569152691714A008EE72F /* ItemEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60569142691714A008EE72F /* ItemEditingView.swift */; };
+		C60569192691C08B008EE72F /* ItemAdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60569182691C08B008EE72F /* ItemAdditionView.swift */; };
+		C617D482268C964300222D01 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C617D481268C964300222D01 /* ItemView.swift */; };
+		C617D483268C964300222D01 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C617D481268C964300222D01 /* ItemView.swift */; };
 		C689701F268C68E900084E5C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689701E268C68E900084E5C /* Tests_iOS.swift */; };
 		C689702A268C68E900084E5C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897029268C68E900084E5C /* Tests_macOS.swift */; };
 		C689702C268C68E900084E5C /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6897000268C68E800084E5C /* ToDo.xcdatamodeld */; };
 		C689702D268C68E900084E5C /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6897000268C68E800084E5C /* ToDo.xcdatamodeld */; };
 		C689702E268C68E900084E5C /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897002268C68E800084E5C /* ToDoApp.swift */; };
 		C689702F268C68E900084E5C /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897002268C68E800084E5C /* ToDoApp.swift */; };
-		C6897030268C68E900084E5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897003268C68E800084E5C /* ContentView.swift */; };
-		C6897031268C68E900084E5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897003268C68E800084E5C /* ContentView.swift */; };
-		C6897032268C68E900084E5C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897004268C68E800084E5C /* Persistence.swift */; };
-		C6897033268C68E900084E5C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897004268C68E800084E5C /* Persistence.swift */; };
 		C6897034268C68E900084E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6897005268C68E900084E5C /* Assets.xcassets */; };
 		C6897035268C68E900084E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6897005268C68E900084E5C /* Assets.xcassets */; };
+		C6897048268C7DAB00084E5C /* iOSHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897047268C7DAB00084E5C /* iOSHomeView.swift */; };
+		C689704A268C7DC300084E5C /* macOSHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897049268C7DC300084E5C /* macOSHomeView.swift */; };
+		C6EEDD1D26915E1F0052DC17 /* Item+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEDD1C26915E1F0052DC17 /* Item+Extension.swift */; };
+		C6EEDD1E26915E1F0052DC17 /* Item+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEDD1C26915E1F0052DC17 /* Item+Extension.swift */; };
+		C6EEDD6D2691691C0052DC17 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEDD6C2691691C0052DC17 /* Persistence.swift */; };
+		C6EEDD6E2691691C0052DC17 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEDD6C2691691C0052DC17 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C60569142691714A008EE72F /* ItemEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditingView.swift; sourceTree = "<group>"; };
+		C60569182691C08B008EE72F /* ItemAdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAdditionView.swift; sourceTree = "<group>"; };
+		C617D481268C964300222D01 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		C6897001268C68E800084E5C /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		C6897002268C68E800084E5C /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
-		C6897003268C68E800084E5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C6897004268C68E800084E5C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C6897005268C68E900084E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C689700A268C68E900084E5C /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C689700D268C68E900084E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +62,10 @@
 		C6897025268C68E900084E5C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6897029268C68E900084E5C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C689702B268C68E900084E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6897047268C7DAB00084E5C /* iOSHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHomeView.swift; sourceTree = "<group>"; };
+		C6897049268C7DC300084E5C /* macOSHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSHomeView.swift; sourceTree = "<group>"; };
+		C6EEDD1C26915E1F0052DC17 /* Item+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Extension.swift"; sourceTree = "<group>"; };
+		C6EEDD6C2691691C0052DC17 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +100,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C605691626918A13008EE72F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C6EEDD1C26915E1F0052DC17 /* Item+Extension.swift */,
+				C6EEDD6C2691691C0052DC17 /* Persistence.swift */,
+				C6897000268C68E800084E5C /* ToDo.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C605691726918A3D008EE72F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C617D481268C964300222D01 /* ItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C6896FFA268C68E800084E5C = {
 			isa = PBXGroup;
 			children = (
@@ -104,11 +133,10 @@
 		C6896FFF268C68E800084E5C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C605691726918A3D008EE72F /* View */,
+				C605691626918A13008EE72F /* Data */,
 				C6897002268C68E800084E5C /* ToDoApp.swift */,
-				C6897003268C68E800084E5C /* ContentView.swift */,
-				C6897004268C68E800084E5C /* Persistence.swift */,
 				C6897005268C68E900084E5C /* Assets.xcassets */,
-				C6897000268C68E800084E5C /* ToDo.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -128,6 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				C689700D268C68E900084E5C /* Info.plist */,
+				C6897047268C7DAB00084E5C /* iOSHomeView.swift */,
+				C60569142691714A008EE72F /* ItemEditingView.swift */,
+				C60569182691C08B008EE72F /* ItemAdditionView.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -137,6 +168,7 @@
 			children = (
 				C6897014268C68E900084E5C /* Info.plist */,
 				C6897015268C68E900084E5C /* macOS.entitlements */,
+				C6897049268C7DC300084E5C /* macOSHomeView.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -316,10 +348,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6EEDD6D2691691C0052DC17 /* Persistence.swift in Sources */,
 				C689702C268C68E900084E5C /* ToDo.xcdatamodeld in Sources */,
-				C6897032268C68E900084E5C /* Persistence.swift in Sources */,
+				C6EEDD1D26915E1F0052DC17 /* Item+Extension.swift in Sources */,
+				C617D482268C964300222D01 /* ItemView.swift in Sources */,
 				C689702E268C68E900084E5C /* ToDoApp.swift in Sources */,
-				C6897030268C68E900084E5C /* ContentView.swift in Sources */,
+				C60569152691714A008EE72F /* ItemEditingView.swift in Sources */,
+				C6897048268C7DAB00084E5C /* iOSHomeView.swift in Sources */,
+				C60569192691C08B008EE72F /* ItemAdditionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +363,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6EEDD6E2691691C0052DC17 /* Persistence.swift in Sources */,
+				C689704A268C7DC300084E5C /* macOSHomeView.swift in Sources */,
 				C689702D268C68E900084E5C /* ToDo.xcdatamodeld in Sources */,
-				C6897033268C68E900084E5C /* Persistence.swift in Sources */,
+				C6EEDD1E26915E1F0052DC17 /* Item+Extension.swift in Sources */,
 				C689702F268C68E900084E5C /* ToDoApp.swift in Sources */,
-				C6897031268C68E900084E5C /* ContentView.swift in Sources */,
+				C617D483268C964300222D01 /* ItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

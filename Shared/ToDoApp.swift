@@ -9,12 +9,24 @@ import SwiftUI
 
 @main
 struct ToDoApp: App {
-    let persistenceController = PersistenceController.shared
-
+    @StateObject var persistenceController: PersistenceController
+    
+    init() {
+        let persistenceController = PersistenceController.shared
+        _persistenceController = StateObject(wrappedValue: persistenceController)
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            #if os(iOS)
+            iOSHomeView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(persistenceController)
+            #endif
+            
+            #if os(macOS)
+            macOSHomeView()
+            #endif
         }
     }
 }
